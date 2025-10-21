@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"log"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 var model = flag.String("model", "text-embedding-004", "the model name, e.g. text-embedding-004")

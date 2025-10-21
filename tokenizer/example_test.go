@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"log"
 
-	"google.golang.org/genai"
-	"google.golang.org/genai/tokenizer"
+	"github.com/charmbracelet/go-genai"
+	"github.com/charmbracelet/go-genai/tokenizer"
 )
 
 func ExampleLocalTokenizer_CountTokens() {

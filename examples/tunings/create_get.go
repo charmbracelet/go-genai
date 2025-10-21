@@ -24,7 +24,7 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 var model = flag.String("model", "gemini-2.5-flash", "the model name, e.g. gemini-2.5-flash")

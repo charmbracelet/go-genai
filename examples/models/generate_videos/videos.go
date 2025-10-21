@@ -24,7 +24,7 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 var model = flag.String("model", "veo-2.0-generate-001", "the model name, e.g. veo-2.0-generate-001")

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"log"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 func print(r any) {

@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 func TestDownload(t *testing.T) {

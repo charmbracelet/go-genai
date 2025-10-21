@@ -22,7 +22,7 @@ import (
 	"log"
 	"net/http"
 
-	"google.golang.org/genai"
+	"github.com/charmbracelet/go-genai"
 )
 
 // Your GCP project

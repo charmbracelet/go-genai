@@ -1,4 +1,4 @@
-module google.golang.org/genai
+module github.com/charmbracelet/go-genai
 
 go 1.24
 

@@ -7,13 +7,12 @@ import (
 	"log"
 	"os"
 
+	"github.com/charmbracelet/go-genai"
 	"github.com/googleapis/mcp-toolbox-sdk-go/core"
-	"google.golang.org/genai"
 )
 
 // ConvertToGenaiTool translates a ToolboxTool into the genai.FunctionDeclaration format.
 func ConvertToGenaiTool(toolboxTool *core.ToolboxTool) *genai.Tool {
-
 	inputschema, err := toolboxTool.InputSchema()
 	if err != nil {
 		return &genai.Tool{}
@@ -135,5 +134,4 @@ func main() {
 	}
 	log.Println("=== Final Response from Model (after processing function result) ===")
 	printResponse(finalResponse)
-
 }
